@@ -42,7 +42,7 @@ unzip pascal.zip
 ### 2.2 Cityscapes Dataset
 Download the dataset with wget:
 ```shell
-wget https://hkustconnect-my.sharepoint.com/:u:/g/personal/hwanggr_connect_ust_hk/EcgD_nffqThPvSVXQz6-8T0B3K9BeUiJLkY_J-NvGscBVA\?e\=2b0MdI\&download\=1 -O cityscapes.zip
+wget https://hkustconnect-my.sharepoint.com/:u:/g/personal/hwanggr_connect_ust_hk/EWoa_9YSu6RHlDpRw_eZiPUBjcY0ZU6ZpRCEG0Xp03WFxg\?e\=LtHLyB\&download\=1 -O cityscapes.zip
 ```
 Unzip the dataset:
 ```shell
@@ -52,7 +52,7 @@ unzip cityscapes.zip
 ### 2.3 COCO Dataset
 Download the dataset with wget:
 ```shell
-wget https://hkustconnect-my.sharepoint.com/:u:/g/personal/hwanggr_connect_ust_hk/EcgD_nffqThPvSVXQz6-8T0B3K9BeUiJLkY_J-NvGscBVA\?e\=2b0MdI\&download\=1 -O coco.zip
+wget \&download\=1 -O coco.zip
 ```
 Unzip the dataset:
 ```shell
