@@ -31,7 +31,7 @@ pip install tensorboard
 pip install six
 pip install pyyaml
 pip install -U openmim
-mim install mmcv
+mim install mmcv==1.6.2
 pip install einops
 pip install timm
 ```
