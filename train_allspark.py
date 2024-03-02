@@ -165,7 +165,7 @@ def main():
             if (i % (len(trainloader_u) // 8) == 0) and (rank == 0):
                 logger.info('Iters: {:}, Total loss: {:.3f}, Loss x: {:.3f}, Loss w_fp: {:.3f}'
                             .format(i, total_loss.avg, total_loss_x.avg, total_loss_w_fp.avg))
-        model.module.decoder.set_CM_status(epoch=epoch, isVal=True)
+        model.module.decoder.set_SMem_status(epoch=epoch, isVal=True)
         eval_mode = 'sliding_window' if cfg['dataset'] == 'cityscapes' else 'original'
         mIoU, iou_class = evaluate(model, valloader, eval_mode, cfg)
 
