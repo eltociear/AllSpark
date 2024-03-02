@@ -111,8 +111,40 @@ To train on other datasets or splits, please modify
 
 ## 4. Results
 
-
 Model weights and training logs will be released soon.
+
+### 4.1 PASCAL VOC 2012 _original_
+<p align="left">
+<img src="./docs/pascal_org.png" width=50% class="center">
+</p>
+
+| Weights of _**AllSpark**_ | 1/16 | &nbsp;1/8&nbsp;  | &nbsp;&nbsp;&nbsp;1/4&nbsp;&nbsp; |  &nbsp;&nbsp;1/2&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;Full&nbsp;&nbsp;&nbsp; |
+| - | - | - | - | - | - |
+
+### 4.2 PASCAL VOC 2012 _augmented_
+
+<p align="left">
+<img src="./docs/pascal_aug.png" width=50% class="center">
+</p>
+
+
+| Weights of _**AllSpark**_ | &nbsp;&nbsp;&nbsp;&nbsp;1/16&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;1/8&nbsp;&nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;&nbsp;1/4&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;1/2&nbsp;&nbsp;&nbsp;&nbsp; |
+| - | - | - | - | - |
+
+
+### 4.3 Cityscapes
+
+### 4.4 COCO
+
+<p align="left">
+<img src="./docs/coco.png" width=50% class="center">
+</p>
+
+
+| Weights of _**AllSpark**_ | &nbsp;1/512&nbsp;  |  &nbsp;1/256&nbsp;&nbsp;  | &nbsp;&nbsp;1/128&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;1/64&nbsp;&nbsp;&nbsp; |
+| - | - | - | - | - |
+
+
 
 
 ## Citation
@@ -130,6 +162,6 @@ If you find this project useful, please consider citing:
 
 
 ## Acknowlegement
-AllSpark is built upon [UniMatch](https://github.com/LiheYoung/UniMatch) and [SegFormer](https://github.com/NVlabs/SegFormer). We thank their authors for making the source code publicly available.
+_**AllSpark**_ is built upon [UniMatch](https://github.com/LiheYoung/UniMatch) and [SegFormer](https://github.com/NVlabs/SegFormer). We thank their authors for making the source code publicly available.
 
 
