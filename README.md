@@ -52,7 +52,7 @@ unzip cityscapes.zip
 ### 2.3 COCO Dataset
 Download the dataset with wget:
 ```shell
-wget \&download\=1 -O coco.zip
+wget https://hkustconnect-my.sharepoint.com/:u:/g/personal/hwanggr_connect_ust_hk/EXCErskA_WFLgGTqOMgHcAABiwH_ncy7IBg7jMYn963BpA\?e\=SQTCWg\&download\=1 -O coco.zip
 ```
 Unzip the dataset:
 ```shell
