@@ -2,7 +2,7 @@
 dataset: pascal
 nclass: 21
 crop_size: 513
-data_root: /home/xmli/hnwang/UniMatch/VOC2012
+data_root: ./VOC2012
 
 # arguments for training
 epochs: 80
