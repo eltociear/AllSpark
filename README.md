@@ -106,7 +106,7 @@ sh scripts/train.sh <num_gpu> <port>
 ```
 
 To train on other datasets or splits, please modify
-``dataset`` and ``split`` in [train.sh](https://github.com/LiheYoung/UniMatch/blob/main/scripts/train.sh).
+``dataset`` and ``split`` in [train.sh](https://github.com/xmed-lab/AllSpark/blob/main/scripts/train.sh).
 
 
 ## 4. Results
