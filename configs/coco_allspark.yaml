@@ -2,7 +2,7 @@
 dataset: coco
 nclass: 81
 crop_size: 513
-data_root: /home/xmli/hnwang/UniMatch/coco
+data_root: ./coco
 
 # arguments for training
 epochs: 10
