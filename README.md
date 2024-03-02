@@ -8,7 +8,7 @@ This repo is the official implementation of AllSpark: Reborn Labeled Features fr
 <img src="./docs/framework.png" width=60% height=65% class="center">
 </p>
 
-
+The _**AllSpark**_ is a powerful Cybertronian artifact in the film series of _Transformers_. It was used to reborn Optimus Prime in _Transformers: Revenge of the Fallen_, which aligns well with our core idea.
 
 
 
