@@ -4,8 +4,8 @@ This repo is the official implementation of AllSpark: Reborn Labeled Features fr
 
 
 <p align="center">
-<img src="./docs/allspark.jpg" width=36% height=65% class="center">
-<img src="./docs/framework.png" width=55% height=65% class="center">
+<img src="./docs/allspark.jpg" width=39% height=65% class="center">
+<img src="./docs/framework.png" width=60% height=65% class="center">
 </p>
 
 
