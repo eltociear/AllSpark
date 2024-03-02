@@ -118,8 +118,11 @@ Model weights and training logs will be released soon.
 <img src="./docs/pascal_org.png" width=50% class="center">
 </p>
 
-| Weights of _**AllSpark**_ | 1/16 | &nbsp;1/8&nbsp;  | &nbsp;&nbsp;&nbsp;1/4&nbsp;&nbsp; |  &nbsp;&nbsp;1/2&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;Full&nbsp;&nbsp;&nbsp; |
-| - | - | - | - | - | - |
+
+| Splits | 1/16 | 1/8  | 1/4 | 1/2 | Full |
+| :- | - | - | - | - | - |
+| Weights of _**AllSpark**_ | 76.07 | 78.41 | 79.77 | 80.75 | 82.12 |
+
 
 ### 4.2 PASCAL VOC 2012 _augmented_
 
@@ -127,13 +130,11 @@ Model weights and training logs will be released soon.
 <img src="./docs/pascal_aug.png" width=50% class="center">
 </p>
 
+| Splits | 1/16 | 1/8  | 1/4 | 1/2 |
+| :- | - | - | - | - |
+| Weights of _**AllSpark**_ | 78.32 | 79.98 | 80.42 | 81.14 |
 
-| Weights of _**AllSpark**_ | &nbsp;&nbsp;&nbsp;&nbsp;1/16&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;1/8&nbsp;&nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;&nbsp;1/4&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;1/2&nbsp;&nbsp;&nbsp;&nbsp; |
-| - | - | - | - | - |
 
-$\mathbf{U^2PL}$ splits:
-| Weights of _**AllSpark**_ | &nbsp;&nbsp;&nbsp;&nbsp;1/16&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;1/8&nbsp;&nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;&nbsp;1/4&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;1/2&nbsp;&nbsp;&nbsp;&nbsp; |
-| - | - | - | - | - |
 
 
 ### 4.3 Cityscapes
@@ -145,8 +146,9 @@ $\mathbf{U^2PL}$ splits:
 </p>
 
 
-| Weights of _**AllSpark**_ | &nbsp;1/512&nbsp;  |  &nbsp;1/256&nbsp;&nbsp;  | &nbsp;&nbsp;1/128&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;1/64&nbsp;&nbsp;&nbsp; |
-| - | - | - | - | - |
+| Splits | 1/512 | 1/256  | 1/128 | 1/64 |
+| :- | - | - | - | - |
+| Weights of _**AllSpark**_ | 34.10 | 41.65 | 45.48 | 49.56 |
 
 
 
