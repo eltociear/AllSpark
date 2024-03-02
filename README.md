@@ -12,11 +12,17 @@ This repo is the official implementation of AllSpark: Reborn Labeled Features fr
 
 ## 1. Environment
 
-First, create a new environment and install the requirements:
+First, clone this repo:
+
+```shell
+git clone https://github.com/xmed-lab/AllSpark.git
+cd AllSpark/
+```
+
+Then, create a new environment and install the requirements:
 ```shell
 conda create -n allspark python=3.7
 conda activate allspark
-cd AllSpark/
 pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu116
 pip install tensorboard
 pip install six
