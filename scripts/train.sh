@@ -13,9 +13,9 @@ now=$(date +"%Y%m%d_%H%M%S")
 ## 3. for 'coco' select: ['1_512', '1_256', '1_128', '1_32']
 
 
-dataset='cityscapes'
-method='baseline_sup'
-split='1_4'
+dataset='pascal'
+method='allspark'
+split='92'
 
 if [[ "${method}" == *"baseline"* ]];then
   config=configs/${dataset}_baseline.yaml
@@ -28,7 +28,7 @@ save_path=exp/$dataset/$method/$split
 
 mkdir -p $save_path
 
-CUDA_VISIBLE_DEVICES="0,1,2,3" python -m torch.distributed.launch \
+python -m torch.distributed.launch \
     --nproc_per_node=$1 \
     --master_addr=localhost \
     --master_port=$2 \
