@@ -121,6 +121,6 @@ To train on other datasets or splits, please modify
 Model weights and training logs will be released soon.
 
 ## Acknowlegement
-SemiVL is based on [UniMatch](https://github.com/LiheYoung/UniMatch) and [SegFormer](https://github.com/NVlabs/SegFormer). We thank their authors for making the source code publicly available.
+AllSpark is built upon [UniMatch](https://github.com/LiheYoung/UniMatch) and [SegFormer](https://github.com/NVlabs/SegFormer). We thank their authors for making the source code publicly available.
 
 
