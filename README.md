@@ -131,6 +131,10 @@ Model weights and training logs will be released soon.
 | Weights of _**AllSpark**_ | &nbsp;&nbsp;&nbsp;&nbsp;1/16&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;1/8&nbsp;&nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;&nbsp;1/4&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;1/2&nbsp;&nbsp;&nbsp;&nbsp; |
 | - | - | - | - | - |
 
+$\mathbf{U^2PL}$ splits:
+| Weights of _**AllSpark**_ | &nbsp;&nbsp;&nbsp;&nbsp;1/16&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;1/8&nbsp;&nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;&nbsp;1/4&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;1/2&nbsp;&nbsp;&nbsp;&nbsp; |
+| - | - | - | - | - |
+
 
 ### 4.3 Cityscapes
 
