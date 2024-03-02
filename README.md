@@ -39,9 +39,6 @@ pip install timm
 Download the dataset with wget:
 ```shell
 wget https://hkustconnect-my.sharepoint.com/:u:/g/personal/hwanggr_connect_ust_hk/EcgD_nffqThPvSVXQz6-8T0B3K9BeUiJLkY_J-NvGscBVA\?e\=2b0MdI\&download\=1 -O pascal.zip
-```
-Unzip the dataset:
-```shell
 unzip pascal.zip
 ```
 
@@ -49,9 +46,6 @@ unzip pascal.zip
 Download the dataset with wget:
 ```shell
 wget https://hkustconnect-my.sharepoint.com/:u:/g/personal/hwanggr_connect_ust_hk/EWoa_9YSu6RHlDpRw_eZiPUBjcY0ZU6ZpRCEG0Xp03WFxg\?e\=LtHLyB\&download\=1 -O cityscapes.zip
-```
-Unzip the dataset:
-```shell
 unzip cityscapes.zip
 ```
 
@@ -59,9 +53,6 @@ unzip cityscapes.zip
 Download the dataset with wget:
 ```shell
 wget https://hkustconnect-my.sharepoint.com/:u:/g/personal/hwanggr_connect_ust_hk/EXCErskA_WFLgGTqOMgHcAABiwH_ncy7IBg7jMYn963BpA\?e\=SQTCWg\&download\=1 -O coco.zip
-```
-Unzip the dataset:
-```shell
 unzip coco.zip
 ```
 
