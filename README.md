@@ -111,6 +111,21 @@ To train on other datasets or splits, please modify
 
 Model weights and training logs will be released soon.
 
+
+## Citation
+
+If you find this project useful, please consider citing:
+
+```bibtex
+@inproceedings{allspark,
+  title={Revisiting Weak-to-Strong Consistency in Semi-Supervised Semantic Segmentation},
+  author={Wang, Haonan and Zhang, Qixiang and Li, Yi and Li, Xiaomeng},
+  booktitle={CVPR},
+  year={2024}
+}
+```
+
+
 ## Acknowlegement
 AllSpark is built upon [UniMatch](https://github.com/LiheYoung/UniMatch) and [SegFormer](https://github.com/NVlabs/SegFormer). We thank their authors for making the source code publicly available.
 
