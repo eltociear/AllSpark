@@ -3,15 +3,11 @@
 This repo is the official implementation of AllSpark: Reborn Labeled Features from Unlabeled in Transformer for Semi-Supervised Semantic Segmentation which is accepted at CVPR-2024.
 
 
-
 <p align="center">
-<img src="./docs/framework.png" width=90% height=90% class="center">
+<img src="./docs/allspark.jpg" width=36% height=65% class="center">
+<img src="./docs/framework.png" width=55% height=65% class="center">
 </p>
 
-
-<p align="center">
-<img src="./docs/allspark.jpg" width=50% height=50% class="center">
-</p>
 
 
 
