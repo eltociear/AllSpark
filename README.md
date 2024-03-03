@@ -171,7 +171,7 @@ If you find this project useful, please consider citing:
 
 ```bibtex
 @inproceedings{allspark,
-  title={Revisiting Weak-to-Strong Consistency in Semi-Supervised Semantic Segmentation},
+  title={AllSpark: Reborn Labeled Features from Unlabeled in Transformer for Semi-Supervised Semantic Segmentation},
   author={Wang, Haonan and Zhang, Qixiang and Li, Yi and Li, Xiaomeng},
   booktitle={CVPR},
   year={2024}
