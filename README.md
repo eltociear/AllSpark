@@ -122,7 +122,7 @@ Model weights and training logs will be released soon.
 
 | Splits | 1/16 | 1/8  | 1/4 | 1/2 | Full |
 | :- | - | - | - | - | - |
-| Weights of _**AllSpark**_ | 76.07 | 78.41 | 79.77 | 80.75 | 82.12 |
+| Weights of _**AllSpark**_ | 76.07 | [78.41](https://hkustconnect-my.sharepoint.com/:u:/g/personal/hwanggr_connect_ust_hk/ESsfJbP0ipxAmhzzdESOIdgBKv3OLceKhpJscDaxTo9Grg?e=UDxRmb\&download\=1) | 79.77 | 80.75 | 82.12 |
 
 
 ### 4.2 PASCAL VOC 2012 _augmented_
