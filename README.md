@@ -116,7 +116,7 @@ Model weights and training logs will be released soon.
 
 ### 4.1 PASCAL VOC 2012 _original_
 <p align="left">
-<img src="./docs/pascal_org.png" width=50% class="center">
+<img src="./docs/pascal_org.png" width=60% class="center">
 </p>
 
 
@@ -128,7 +128,7 @@ Model weights and training logs will be released soon.
 ### 4.2 PASCAL VOC 2012 _augmented_
 
 <p align="left">
-<img src="./docs/pascal_aug.png" width=50% class="center">
+<img src="./docs/pascal_aug.png" width=60% class="center">
 </p>
 
 | Splits | 1/16 | 1/8  | 1/4 | 1/2 |
@@ -141,7 +141,7 @@ Model weights and training logs will be released soon.
 ### 4.3 Cityscapes
 
 <p align="left">
-<img src="./docs/cityscapes.png" width=50% class="center">
+<img src="./docs/cityscapes.png" width=60% class="center">
 </p>
 
 
@@ -154,7 +154,7 @@ Model weights and training logs will be released soon.
 ### 4.4 COCO
 
 <p align="left">
-<img src="./docs/coco.png" width=50% class="center">
+<img src="./docs/coco.png" width=60% class="center">
 </p>
 
 
