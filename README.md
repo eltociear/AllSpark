@@ -1,6 +1,6 @@
 # [CVPR-2024] _AllSpark_: Reborn Labeled Features from Unlabeled in Transformer for Semi-Supervised Semantic Segmentation
 
-This repo is the official implementation of _AllSpark_: Reborn Labeled Features from Unlabeled in Transformer for Semi-Supervised Semantic Segmentation which is accepted at CVPR-2024.
+This repo is the official implementation of [_AllSpark_: Reborn Labeled Features from Unlabeled in Transformer for Semi-Supervised Semantic Segmentation](https://arxiv.org/abs/2403.01818) which is accepted at CVPR-2024.
 
 
 <p align="center">
