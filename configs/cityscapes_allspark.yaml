@@ -36,5 +36,4 @@ model:
       num_class: 19
       in_planes: [64, 128, 320, 512]
       image_size: 801
-      warmup_epoch: 15
       embedding_dim: 768

@@ -7,13 +7,12 @@ data_root: ./VOC2012
 # arguments for training
 epochs: 80
 batch_size: 2 # per GPU x 4 GPUs
-lr: 0.0005
+lr: 0.001
 lr_multi: 10.0
 criterion:
   name: CELoss
   kwargs:
     ignore_index: 255
-conf_thresh: 0.95
 
 criterion_u:
   name: CELoss
@@ -34,5 +33,4 @@ model:
       num_class: 21
       in_planes: [64, 128, 320, 512]
       image_size: 513
-      warmup_epoch: 5
       embedding_dim: 768

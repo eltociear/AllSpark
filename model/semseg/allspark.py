@@ -201,13 +201,12 @@ class AllSpark(nn.Module):
 
 
 class SemiDecoder(nn.Module):
-    def __init__(self, num_heads, num_class, in_planes, image_size, warmup_epoch, embedding_dim):
+    def __init__(self, num_heads, num_class, in_planes, image_size, embedding_dim):
         super(SemiDecoder, self).__init__()
 
         self.pseudo_label = None
         self.pseudo_prob_map = None
         self.using_SMem = False
-        self.warmup_epoch = warmup_epoch
         self.allspark = AllSpark(num_heads=num_heads,
                                  embedding_channels=in_planes[3],
                                  channel_num=in_planes[3],
@@ -225,8 +224,8 @@ class SemiDecoder(nn.Module):
     def set_pseudo_prob_map(self, pseudo_prob_map):
         self.pseudo_prob_map = pseudo_prob_map
 
-    def set_SMem_status(self, epoch, isVal=False):
-        if epoch >= self.warmup_epoch and not isVal:
+    def set_SMem_status(self, isVal=False):
+        if not isVal:
             self.using_SMem = True
         else:
             self.using_SMem = False

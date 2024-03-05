@@ -16,6 +16,7 @@ from util.ohem import ProbOhemCrossEntropy2d
 from util.utils import count_params, init_log, AverageMeter
 from util.dist_helper import setup_distributed
 from model.model_helper import ModelBuilder
+import numpy as np
 
 parser = argparse.ArgumentParser(description='Revisiting Weak-to-Strong Consistency in Semi-Supervised Semantic Segmentation')
 parser.add_argument('--config', type=str, required=True)
@@ -24,10 +25,18 @@ parser.add_argument('--unlabeled-id-path', type=str, required=True)
 parser.add_argument('--save-path', type=str, required=True)
 parser.add_argument('--local_rank', default=0, type=int)
 parser.add_argument('--port', default=None, type=int)
+parser.add_argument('--seed', default=114154, type=int)
 
 
 def main():
     args = parser.parse_args()
+    import random
+    SEED = args.seed
+    random.seed(SEED)
+    np.random.seed(SEED)
+    torch.manual_seed(SEED)
+    torch.cuda.manual_seed(SEED)
+    torch.cuda.manual_seed_all(SEED)
 
     cfg = yaml.load(open(args.config, "r"), Loader=yaml.Loader)
 
@@ -117,7 +126,7 @@ def main():
 
         loader = zip(trainloader_l, trainloader_u)
 
-        model.module.decoder.set_SMem_status(epoch=epoch, isVal=False)
+        model.module.decoder.set_SMem_status(isVal=False)
 
         for i, ((img_x, mask_x), img_u_s) in enumerate(loader):
 
@@ -165,7 +174,7 @@ def main():
             if (i % (len(trainloader_u) // 8) == 0) and (rank == 0):
                 logger.info('Iters: {:}, Total loss: {:.3f}, Loss x: {:.3f}, Loss w_fp: {:.3f}'
                             .format(i, total_loss.avg, total_loss_x.avg, total_loss_w_fp.avg))
-        model.module.decoder.set_SMem_status(epoch=epoch, isVal=True)
+        model.module.decoder.set_SMem_status(isVal=True)
         eval_mode = 'sliding_window' if cfg['dataset'] == 'cityscapes' else 'original'
         mIoU, iou_class = evaluate(model, valloader, eval_mode, cfg)
 
