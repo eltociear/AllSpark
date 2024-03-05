@@ -68,7 +68,7 @@ class AverageMeter(object):
 
     def update(self, val, num=1):
         if self.length > 0:
-            # currently assert num==1 to avoid bad usage, refine when there are some explict requirements
+            # currently assert num==1 to avoid bad usage, refine when there are some explicit requirements
             assert num == 1
             self.history.append(val)
             if len(self.history) > self.length:
